@@ -1,6 +1,6 @@
 package org.tnsif.wrapperclass;
 
-public class Autuboxing {
+public class Autoboxing {
 	public static void main(String[] args) {
 		//primitive data type variable
 		int num = 1025;

@@ -1,11 +1,9 @@
-//driver class
-package org.stjohn.interfacedemo;
+package org.tnsif.interfacedemo;
 
 public class InterfaceExecutor {
 
 	public static void main(String[] args) {
-		
-	
+
 		// we can't instantiate any interface
 		//ATMMachine a=new ATMMachine();		
 		
@@ -18,7 +16,7 @@ public class InterfaceExecutor {
 		System.out.println(r1.displayName());
 		
 		
-		NestedInterfaceEx n= new NestedInterfaceEx();
+		NestedInterface n= new NestedInterface();
 		n.setStr1("Vaishnavi");
 		n.setStr2("Jadhav");
 		System.out.println(n.concante());

@@ -1,4 +1,4 @@
-package org.stjohn.interfacedemo;
+package org.tnsif.interfacedemo;
 
 public interface Receipe {
 	/*by default all the methods inside an 

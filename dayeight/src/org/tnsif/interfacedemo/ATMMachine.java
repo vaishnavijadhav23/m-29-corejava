@@ -1,5 +1,5 @@
 //program to demonstrate on interface
-package org.stjohn.interfacedemo;
+package org.tnsif.interfacedemo;
 
 public interface ATMMachine {
 	/*All the variables inside interface are bydefault 
@@ -15,5 +15,6 @@ public interface ATMMachine {
 	 */
 	void withdraw();
 	void deposite();
+
 
 }

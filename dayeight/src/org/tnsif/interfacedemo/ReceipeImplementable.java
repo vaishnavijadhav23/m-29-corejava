@@ -1,7 +1,6 @@
-package org.stjohn.interfacedemo;
+package org.tnsif.interfacedemo;
 
-public class ReceipeImplementable implements Receipe{
-	
+public class ReceipeImplementable implements Receipe {
 	private String name;
 
 	public String getName() {
@@ -15,6 +14,5 @@ public class ReceipeImplementable implements Receipe{
 	public String displayName() {
 		return "welcome to "+name;
 	}
-	
 
 }

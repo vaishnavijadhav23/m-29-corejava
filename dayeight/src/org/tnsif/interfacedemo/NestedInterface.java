@@ -1,9 +1,8 @@
-package org.stjohn.interfacedemo;
+package org.tnsif.interfacedemo;
 
+import org.tnsif.interfacedemo.OuterInterface.InnerInterface;
+public class NestedInterface  implements InnerInterface{
 
-import org.stjohn.interfacedemo.OuterInterface.InnerInterface;
-
-public class NestedInterfaceEx implements InnerInterface {
 	private String str1;
 	private String str2;
 	
@@ -24,10 +23,5 @@ public class NestedInterfaceEx implements InnerInterface {
 	public String concante() {
 		return str1 + str2;
 	}
-	
-	
-	
-	
-	
 
 }
