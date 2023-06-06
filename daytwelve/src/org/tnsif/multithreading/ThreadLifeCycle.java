@@ -16,7 +16,7 @@ public class ThreadLifeCycle extends Thread{
 		}
 		
 		try {
-			sleep(500);
+			Thread.sleep(500);
 			System.out.println("Is thread alive?:"+this.isAlive());
 			
 		}
