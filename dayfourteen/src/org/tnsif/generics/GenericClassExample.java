@@ -1,4 +1,4 @@
-//program t demonstrate on generics class 
+//program t demonstrate on generic class 
 
 package org.tnsif.generics;
 
